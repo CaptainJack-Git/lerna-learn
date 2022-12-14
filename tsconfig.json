@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "lib": ["es6"]
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
